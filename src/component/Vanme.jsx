@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import "../assets/styles/vanme.css"
+import "../assets/styles/Vanme.css"
 const Vanme = () => {
   const url = 'https://vanlifeback.onrender.com/api/vans';
   const [data, setdata] = useState([]);
