@@ -4,8 +4,8 @@ import Home from "./component/Home"
 import About from "./component/About"
 import Van from "./component/Van"
 import Login from "./component/Login"
-import { ToastContainer, } from 'react-toastify';
-import './react-toastify/dist/ReactToastify.css';
+// import { ToastContainer, } from 'react-toastify';
+// import './react-toastify/dist/ReactToastify.css';
 import Host from "./component/Host"
 import Dashboard from "./component/Dashboard"
 import Vandetails from "./component/Vandetails"
@@ -17,7 +17,7 @@ import VanmeDetails from "./component/VanmeDetails"
 function App() {
   return (
     <>
-      <ToastContainer />
+      {/* <ToastContainer /> */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />

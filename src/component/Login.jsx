@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 import "../assets/styles/Login.css"
 import { useFormik } from 'formik';
 import * as yup from 'yup';
@@ -22,7 +22,7 @@ const Login = () => {
     })
 
     const sign = () => {
-        toast.success("sign up successfully")
+        // toast.success("sign up successfully")
         navigate("/home")
     }
 
