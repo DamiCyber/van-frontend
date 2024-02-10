@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+nav {
+  display: flex !important;
+}
+.bac h1 {
+  padding: 20px !important;
+}
+.ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px !important;
+  width: 100px !important;
+  height: 50px !important;
+  color: #fff;
+  font-size: 20px;
+}
+.ctn2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px !important;
+  width: 100px !important;
+  height: 50px !important;
+}
+@media (max-width: 430px) {
+  .bac h1 {
+    font-size: 14px;
+  }
+  .pek{
+    display: none !important;
+  }
+  .ctn2{
+    display: none !important;
+  }
+  .pex {
+    display: flex !important;
+    width: 420px;
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 380px) {
+  .bac h1 {
+    font-size: 14px;
+  }
+  .pek{
+    display: none !important;
+  }
+  .ctn2{
+    display: none !important;
+  }
+  .pex {
+    display: flex !important;
+    width: 375px;
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 330px) {
+   .alli{
+    width: 10px !important;
+    overflow-x: hidden !important;
+  }
+  .bac h1 {
+    font-size: 14px;
+  }
+  .pek{
+    display: none !important;
+  }
+  .ctn2{
+    display: none !important;
+  }
+  .pex {
+    display: flex !important;
+    width: 310px;
+    flex-direction: column !important;
+  }
+}
+@media(max-width:325px){
+  .boxx{
+    background-color: none;
+    margin-left: 0px !important;
+  }
+  .boxx img{
+    width: 140px !important;
+  }
+  .hi{
+    font-size: 20px !important;
+    font-weight: 600;
+  }
+}
+@media(max-width:380px){
+  .boxx{
+    overflow: hidden;
+    background-color: none !important;
+    margin-left: 0px !important;
+  }
+  .boxx img{
+    width: 140px !important;
+  }
+  .boxx h2{ 
+    font-size: 14px;
+  }
+}
+@media(max-width:430px){
+  .boxx{
+    margin-left: 0px !important;
+    width: 100%;
+    background-color: none !important;
+  }
+  .boxx h2{ 
+    font-size: 14px;
+  }
+  .boxx img{
+    width: 200px !important;
+  }
+}

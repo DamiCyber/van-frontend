@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.images img {
+  width: 100%;
+  height: 90vh;
+}
+.text {
+  text-align: center;
+  margin-left: 200px;
+  padding: 30px;
+  color: #161616;
+  width: 700px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.textmini {
+  margin-left: 150px;
+  font-size: 25px;
+  line-height: 35px;
+  width: 900px;
+}
+.textmini p {
+  margin-bottom: 20px;
+}
+.textall {
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  background-color: #ffcc8d;
+  width: 550px;
+  height: 250px;
+  border-radius: 20px;
+}
+.textall h1 {
+  line-height: 50px;
+  width: 400px;
+}
+.mtn {
+  background-color: #161616;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 240px !important;
+  height: 70px !important;
+}
+.mtn:hover {
+  color: #161616;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+@media (max-width: 430px) {
+  .images img {
+    height: 40vh;
+  }
+  .text {
+    line-height: 34px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .textmini {
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 34px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .textall {
+    margin-left: 0px;
+    width: 425px;
+  }
+  .txt h1 {
+    line-height: 30px;
+    width: 80%;
+  }
+}
+@media (max-width: 380px) {
+  .images img {
+    height: 40vh;
+  }
+  .text {
+    line-height: 34px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .textmini {
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 34px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .textall {
+    margin-left: 0px;
+    width: 373px;
+  }
+  .txt h1 {
+    line-height: 30px;
+    width: 80%;
+  }
+}
+@media (max-width: 325px) {
+  .images img {
+    width: 100%;
+    height: 40vh;
+  }
+  .text {
+    line-height: 34px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .textmini {
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 34px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .textall {
+    margin-left: 0px;
+    width: 320px;
+  }
+  .txt h1 {
+    line-height: 30px;
+    width: 80%;
+  }
+}

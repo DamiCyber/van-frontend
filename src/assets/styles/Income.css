@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .pack{
+    padding:20px;
+    line-height: 50px;
+    margin-left: 70px;
+  }
+  .pack h1{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .pack small{
+    font-size: 17px;
+    font-weight: 300;
+  }
+  .pack p{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  canvas{
+    width: 900px !important;
+    height: 400px !important;
+  }
+  @media(max-width:430px){
+    .pack{
+      margin-left: 0px;
+    }
+    canvas{
+      width: 400px !important;
+      height: 200px !important;
+    }
+  }
+  @media(max-width:380px){
+    .pack{
+      margin-left: 0px;
+    }
+    canvas{
+      width: 350px !important;
+      height: 270px !important;
+    }
+  }
+  @media(max-width:325px){
+    .pack{
+      margin-left: 0px;
+    }
+    canvas{
+      width: 290px !important;
+      height: 200px !important;
+    }
+  }

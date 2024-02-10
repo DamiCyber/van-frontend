@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.review {
+  font-weight: 600;
+  font-size: 35px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.cover img {
+  width: 100%;
+}

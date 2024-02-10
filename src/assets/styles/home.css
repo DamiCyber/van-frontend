@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+.check {
+  padding-left: 230px;
+  padding-top: 90px;
+  width: 75%;
+}
+.check h3 {
+  color: white;
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+.check p {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 90%;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 15.95px;
+  font-weight: 700;
+  line-height: 31.66px;
+  text-align: center;
+  margin-top: 60px;
+  cursor: pointer;
+  background-color: #ff8c38;
+  width: 600px;
+  height: 50px;
+}
+.button:hover {
+  color: #ff8c38;
+  background-color: transparent;
+  border: 1px solid #ff8c38;
+}
+.btn {
+  background-color: transparent;
+  margin-left: 220px;
+}
+.footer {
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+@media (max-width: 430px) {
+  .check {
+    padding: 0px;
+  }
+
+  .check h3 {
+    margin-left: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .check p {
+    line-height: 20px;
+    margin-left: 60px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .button {
+    width: 200px;
+  }
+  .btn {
+    margin-left: 110px;
+  }
+}
+@media (max-width: 380px) {
+  .check {
+    padding: 0px;
+  }
+
+  .check h3 {
+    margin-left: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .check p {
+    line-height: 25px;
+    margin-left: 50px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .button {
+    width: 200px;
+  }
+  .btn {
+    margin-left: 85px;
+  }
+}
+@media (max-width: 325px) {
+  .logo img {
+    margin-top: 50px;
+  }
+  nav {
+    line-height: 80px;
+  }
+  .check {
+    padding: 0px;
+  }
+
+  .check h3 {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    line-height: 35px;
+  }
+  .check p {
+    line-height: 20px;
+    margin-top: 50px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .button {
+    width: 200px;
+  }
+  .btn {
+    margin-left: 60px;
+  }
+}
