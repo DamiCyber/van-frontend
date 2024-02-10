@@ -4,7 +4,7 @@ import axios from 'axios'
 const VanmeDetails = () => {
     const {id}= useParams()
     const [data, setdata] = useState([])
-    const api = 'http://localhost:4000/api/vans';
+    const api = 'https://vanlifeback.onrender.com/api/vans';
     useEffect(() => {
         axios.get(api).then((response)=>{
             setdata(response.data[id])

@@ -5,7 +5,7 @@ import "../assets/styles/van.css"
 const Van = () => {
   const [vans, setVans] = useState([]);
   const [filteredVans, setFilteredVans] = useState([]);
-  const URL = 'http://localhost:4000/api/vans';
+  const URL = 'https://vanlifeback.onrender.com/api/vans';
 
   useEffect(() => {
     axios.get(URL)

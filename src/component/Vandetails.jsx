@@ -4,7 +4,7 @@ import axios from "axios";
 const Vandetails = () => {
   let {id} = useParams()
   const [data, setData] = useState([]);
-  const url = 'http://localhost:4000/api/vans';
+  const url = 'https://vanlifeback.onrender.com/api/vans';
 
   useEffect(() => {
     axios.get(url).then((response) => {

@@ -7,7 +7,7 @@ const Dashboard = () => {
   const [displayedData, setDisplayedData] = useState([]);
   const [showAll, setShowAll] = useState(false);
 
-  const api = 'http://localhost:4000/api/vans';
+  const api = 'https://backend-enjs.onrender.com/api/vans';
 
   useEffect(() => {
     axios.get(api).then((response) => {

@@ -5,7 +5,7 @@ import About from "./component/About"
 import Van from "./component/Van"
 import Login from "./component/Login"
 import { ToastContainer, } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import './react-toastify/dist/ReactToastify.css';
 import Host from "./component/Host"
 import Dashboard from "./component/Dashboard"
 import Vandetails from "./component/Vandetails"
