@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import "../assets/styles/van.css"
+import "../assets/styles/Van.css"
 const Van = () => {
   const [vans, setVans] = useState([]);
   const [filteredVans, setFilteredVans] = useState([]);
