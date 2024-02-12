@@ -11,7 +11,7 @@ const Van = () => {
     axios.get(URL)
       .then(response => {
         setVans(response.data);
-        console.log(response.data);
+        // console.log(response.data);
         setFilteredVans(response.data);
       })
       .catch(error => {

@@ -6,14 +6,13 @@ const Dashboard = () => {
   const [data, setData] = useState([]);
   const [displayedData, setDisplayedData] = useState([]);
   const [showAll, setShowAll] = useState(false);
-
-  const api = 'hhttps://vanlifeback.onrender.com/api/vans';
+  const api = 'https://vanlifeback.onrender.com/api/vans';
 
   useEffect(() => {
     axios.get(api).then((response) => {
       setData(response.data);
       setDisplayedData(response.data.slice(0, 3));
-      console.log(response.data);
+      // console.log(response.data);
     });
   }, []);
 

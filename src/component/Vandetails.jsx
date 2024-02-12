@@ -8,7 +8,7 @@ const Vandetails = () => {
 
   useEffect(() => {
     axios.get(url).then((response) => {
-      console.log(response.data[id]);
+      // console.log(response.data[id]);
       setData(response.data[id]);
     });
   }, [id]);

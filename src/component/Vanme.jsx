@@ -10,7 +10,7 @@ const Vanme = () => {
   useEffect(() => {
     axios.get(url).then((response) => {
       setdata(response.data);
-      console.log(response.data);
+      // console.log(response.data);
     });
   }, []);
 
