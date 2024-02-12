@@ -10,7 +10,7 @@
   align-items: center;
   background-color: #ffead0;
 }
-.checkout{
+.checkout {
   width: 100%;
   height: 90vh;
   background-color: #ffead0 !important;
@@ -56,46 +56,47 @@
   font-size: 19px;
 }
 
-.h5{
+.h5 {
   cursor: pointer;
-  width:100%;
+  width: 100%;
 }
-.flebas{
+.flebas {
   display: flex;
   flex-direction: column;
 }
-.pax{
+.pax {
   display: flex;
   align-items: center;
   border: none !important;
+  margin-bottom: 20px;
 }
-.down{
+.down {
   gap: 20px;
   margin-left: 40px;
   margin-top: 80px;
 }
-.down img{
+.down img {
   border-radius: 10px;
   width: 200px;
 }
-.footer{
+.footer {
   height: 90px;
 }
-@media(max-width:325px){
-  .down{
+@media (max-width: 325px) {
+  .down {
     margin-left: 0px;
   }
   .down img {
     width: 150px;
   }
 }
-@media(max-width:380px){
-  .down{
+@media (max-width: 380px) {
+  .down {
     margin-left: 0px;
   }
 }
-@media(max-width:430px){
-  .down{
+@media (max-width: 430px) {
+  .down {
     margin-left: 0px;
   }
 }

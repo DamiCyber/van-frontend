@@ -61,7 +61,7 @@ const Dashboard = () => {
         </div>
         <div className="down">
           {displayedData.map((van) => (
-            <div key={van.id} className=" rounded p-5 pax">
+            <div key={van.id} className=" rounded p-5 pax bg-white gap-5">
               <img src={van.imageUrl} alt={van.name} className=" w mb-2" />&nbsp;
               <div className="flebas">
                 <h2 className="text-xl font-bold">{van.name}</h2>
