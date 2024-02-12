@@ -7,6 +7,7 @@ const VanmeDetails = () => {
     const api = 'https://vanlifeback.onrender.com/api/vans';
     useEffect(() => {
         axios.get(api).then((response)=>{
+          
             setdata(response.data[id])
             console.log(response.data[id]);
         })
