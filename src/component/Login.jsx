@@ -34,7 +34,7 @@ const Login = () => {
                     <h1>Sign in to your account</h1>
                     <form action="" onSubmit={handleSubmit}>
                         <span>{errors.firstname}</span>
-                        <input type="text" onChange={handleChange} placeholder='first  name' name='firstname' value={values.firstname} />
+                        <input type="text" onChange={handleChange} placeholder='first name' name='firstname' value={values.firstname} />
                         <span>{errors.password}</span>
                         <input type="password" onChange={handleChange} className='ck' placeholder='Password' name='password' value={values.password} />
 
