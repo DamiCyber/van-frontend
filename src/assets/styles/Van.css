@@ -46,6 +46,12 @@ nav {
   }
 }
 @media (max-width: 380px) {
+  .alli{
+    display: none !important;
+    width: 10px !important;
+    height: 5px !important;
+    overflow-x: hidden !important;
+  }
   .bac h1 {
     font-size: 14px;
   }
