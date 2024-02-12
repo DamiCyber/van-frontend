@@ -61,9 +61,14 @@
 }
 @media (max-width: 430px) {
   .check {
+    position: absolute;
+    top: 30%;
     padding: 0px;
   }
-
+  .btn {
+    position: absolute;
+    top: 60%;
+  }
   .check h3 {
     margin-left: 60px;
     width: 100%;
@@ -89,7 +94,15 @@
   .check {
     padding: 0px;
   }
-
+  .check {
+    position: absolute;
+    top: 20%;
+    padding: 0px;
+  }
+  .btn {
+    position: absolute;
+    top: 70%;
+  }
   .check h3 {
     margin-left: 50px;
     width: 100%;

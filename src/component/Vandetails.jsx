@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
+import "../assets/styles/vandetails.css"
 import axios from "axios";
 const Vandetails = () => {
   let {id} = useParams()
@@ -19,10 +20,10 @@ const Vandetails = () => {
     <section>
         <div className="details">
             <img src={data.imageUrl} alt="" />
-            <h1>{data.type}</h1>
+            <h1 className="type">{data.type}</h1>
             <h1>{data.name}</h1>
-            <h1>{data.description}</h1>
-            <h1>${data.price}</h1>
+            <h1 className="class">{data.description}</h1>
+            <h1 className="price">${data.price}</h1>
         </div>
     </section>
   )
